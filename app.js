@@ -93,7 +93,7 @@ function drawOrder() {
         <p>${item.quantity}</p>
         </div>
         <div class="col-3">
-        <p>${mtotal}</p>
+        <p>$${mtotal}</p>
         </div>
         </div>`
         
@@ -108,6 +108,6 @@ function drawOrder() {
   OrderlistEle.innerHTML = html
   
   // @ts-ignore
-  totalElm.innerHTML = totalPrice
+  totalElm.innerHTML = `$${totalPrice}`
   
 }

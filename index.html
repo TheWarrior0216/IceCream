@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="app.js" defer ></script>
+  <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+    integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@latest/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
   <title>Document</title>
 </head>
 
@@ -40,9 +42,9 @@
             </div>
             <!-- NOTE Section 2.5 -->
             <div class="" id="order-list">
-            
+
             </div>
-            <div class ="d-flex flex-row border text-end" id ="order-total">
+            <div class="d-flex flex-row border justify-content-end px-5 mx-5" id="order-total">
               <p>Whats</p>
             </div>
             <!-- NOTE Section 2.5 -->
@@ -56,39 +58,45 @@
             <div class=" d-flex justify-content-around">
               <div class="col-4">
                 <button class="btn" onclick="addToScoop('toppings', 'Sprinkles')">
-                <div class="card">
-                  <img class="card-img-top card-image-fix" src="https://images.unsplash.com/photo-1587899576587-766a2afea5c6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8U3ByaW5rbGVzfGVufDB8fDB8fHww" alt="Title" />
-                  <div class="card-body">
-                    <h4 class="card-title">Sprinkles</h4>
+                  <div class="card">
+                    <img class="card-img-top card-image-fix"
+                      src="https://images.unsplash.com/photo-1587899576587-766a2afea5c6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8U3ByaW5rbGVzfGVufDB8fDB8fHww"
+                      alt="Title" />
+                    <div class="card-body">
+                      <h4 class="card-title">Sprinkles</h4>
+                    </div>
                   </div>
-                </div>
-              </button>
+                </button>
               </div>
               <div class="col-4">
 
                 <button class="btn" onclick="addToScoop('toppings', 'Chocolate Chips')">
                   <div class="card">
-                    <img class="card-img-top card-image-fix" src="https://images.unsplash.com/photo-1585502866757-30ae9e509e31?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2hvY29sYXRlJTIwQ2hpcHN8ZW58MHx8MHx8fDA%3D" alt="Title" />
+                    <img class="card-img-top card-image-fix"
+                      src="https://images.unsplash.com/photo-1585502866757-30ae9e509e31?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2hvY29sYXRlJTIwQ2hpcHN8ZW58MHx8MHx8fDA%3D"
+                      alt="Title" />
                     <div class="card-body">
                       <h4 class="card-title">Chocolate Chips</h4>
                     </div>
                   </div>
                 </button>
-                
-                
+
+
               </div>
               <div class="col-4">
 
                 <button class="btn" onclick="addToScoop('toppings', 'Gummy Worms')">
                   <div class="card">
-                    <img class="card-img-top card-image-fix" src="https://images.unsplash.com/photo-1516747773440-e114ee0d3c07?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R3VtbXklMjBXb3Jtc3xlbnwwfHwwfHx8MA%3D%3D" alt="Title" />
+                    <img class="card-img-top card-image-fix"
+                      src="https://images.unsplash.com/photo-1516747773440-e114ee0d3c07?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8R3VtbXklMjBXb3Jtc3xlbnwwfHwwfHx8MA%3D%3D"
+                      alt="Title" />
                     <div class="card-body">
                       <h4 class="card-title">Gummy Worms</h4>
                     </div>
                   </div>
                 </button>
-                
-                
+
+
               </div>
             </div>
             <!-- NOTE Vessels Begin -->
@@ -98,7 +106,9 @@
 
                 <button class="btn" onclick="addToScoop('Vessels', 'Waffle Cone')">
                   <div class="card">
-                    <img class="card-img-top card-image-fix" src="https://images.unsplash.com/photo-1559703248-dcaaec9fab78?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8V2FmZmxlJTIwQ29uZXxlbnwwfHwwfHx8MA%3D%3D" alt="Title" />
+                    <img class="card-img-top card-image-fix"
+                      src="https://images.unsplash.com/photo-1559703248-dcaaec9fab78?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8V2FmZmxlJTIwQ29uZXxlbnwwfHwwfHx8MA%3D%3D"
+                      alt="Title" />
                     <div class="card-body">
                       <h4 class="card-title">Waffle Cone</h4>
                     </div>
@@ -110,27 +120,31 @@
 
                 <button class="btn" onclick="addToScoop('Vessels', 'Waffle Bowl')">
                   <div class="card">
-                    <img class="card-img-top card-image-fix" src="https://th.bing.com/th/id/OIP.JqUR9dPR8D7U_ZUO4lmUsAHaE3?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Title" />
+                    <img class="card-img-top card-image-fix"
+                      src="https://th.bing.com/th/id/OIP.JqUR9dPR8D7U_ZUO4lmUsAHaE3?w=267&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                      alt="Title" />
                     <div class="card-body">
                       <h4 class="card-title">Waffle Bowl</h4>
                     </div>
                   </div>
                 </button>
-                
-                
+
+
               </div>
               <div class="col-4">
 
                 <button class="btn" onclick="addToScoop('Vessels', 'Dipped Cone')">
                   <div class="card">
-                    <img class="card-img-top card-image-fix" src="https://th.bing.com/th/id/OIP.PuxuqVXCdHTKKNIDcmxbrAAAAA?w=202&h=303&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Title" />
+                    <img class="card-img-top card-image-fix"
+                      src="https://th.bing.com/th/id/OIP.PuxuqVXCdHTKKNIDcmxbrAAAAA?w=202&h=303&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+                      alt="Title" />
                     <div class="card-body">
                       <h4 class="card-title">Dipped Cone</h4>
                     </div>
                   </div>
                 </button>
-                
-                
+
+
               </div>
             </div>
             <!-- NOTE Ice Cream Begins -->
@@ -140,7 +154,8 @@
 
                 <button class="btn" onclick="addToScoop('iceCream','Vanilla')">
                   <div class="card">
-                    <img class="card-img-top card-image-fix" src="https://th.bing.com/th/id/OIP.v2qMzHs9ZgnmOLV_QgH4ewHaJQ?rs=1&pid=ImgDetMain" alt="Title" />
+                    <img class="card-img-top card-image-fix"
+                      src="https://th.bing.com/th/id/OIP.v2qMzHs9ZgnmOLV_QgH4ewHaJQ?rs=1&pid=ImgDetMain" alt="Title" />
                     <div class="card-body">
                       <h4 class="card-title">Vanilla</h4>
                     </div>
@@ -152,26 +167,28 @@
 
                 <button class="btn" onclick="addToScoop('iceCream','Chocolate')">
                   <div class="card">
-                    <img class="card-img-top card-image-fix" src="https://th.bing.com/th/id/R.a67a7664020c610f781b0dc2274feef7?rik=QId2Fn1lZGv3nQ&riu=http%3a%2f%2fthesuburbansoapbox.com%2fwp-content%2fuploads%2f2017%2f03%2fChocolate-Ice-Cream-2.jpg&ehk=GIMwMMDER8Ub6NJJkM9W750s4UZDA36PhagyAJr03eg%3d&risl=&pid=ImgRaw&r=0" alt="Title" />
+                    <img class="card-img-top card-image-fix"
+                      src="https://th.bing.com/th/id/R.a67a7664020c610f781b0dc2274feef7?rik=QId2Fn1lZGv3nQ&riu=http%3a%2f%2fthesuburbansoapbox.com%2fwp-content%2fuploads%2f2017%2f03%2fChocolate-Ice-Cream-2.jpg&ehk=GIMwMMDER8Ub6NJJkM9W750s4UZDA36PhagyAJr03eg%3d&risl=&pid=ImgRaw&r=0"
+                      alt="Title" />
                     <div class="card-body">
                       <h4 class="card-title">Chocolate</h4>
                     </div>
                   </div>
                 </button>
-                
+
               </div>
               <div class="col-4">
 
                 <button class="btn" onclick="addToScoop('iceCream','Strawberry')">
                   <div class="card">
-                    <img class="card-img-top card-image-fix" src="https://th.bing.com/th/id/R.ac28b14232f37d7a109a3e93aae11401?rik=eMANb6dmjdFMWQ&pid=ImgRaw&r=0" alt="Title" />
+                    <img class="card-img-top card-image-fix"
+                      src="https://th.bing.com/th/id/R.ac28b14232f37d7a109a3e93aae11401?rik=eMANb6dmjdFMWQ&pid=ImgRaw&r=0"
+                      alt="Title" />
                     <div class="card-body">
                       <h4 class="card-title">Strawberry $4</h4>
                     </div>
                   </div>
                 </button>
-                
-                
               </div>
             </div>
 
@@ -183,4 +200,5 @@
     </section>
   </Main>
 </body>
+
 </html>
