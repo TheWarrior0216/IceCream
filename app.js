@@ -47,7 +47,9 @@ const iceCream = [{
 }]
 const everything = { toppings, Vessels, iceCream }
 
-function addToScoop(TypeName, IceCreamname) {
+
+everything['toppings']
+ function addToScoop(TypeName, IceCreamname) {
   const Items = everything[TypeName]
   for (let i = 0; i < Items.length; i++) {
     const someFlavor = Items[i]
@@ -108,6 +110,6 @@ function drawOrder() {
   OrderlistEle.innerHTML = html
   
   // @ts-ignore
-  totalElm.innerHTML = `$${totalPrice}`
+  totalElm.innerHTML = `<div class = "mx-5">$${totalPrice}</div>`
   
 }
